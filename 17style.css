@@ -1,108 +1,94 @@
 body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #bd0d91;
-    background-image: linear-gradient(
-        to bottom,
-       white 0%,
-        white 100%
-
-    );
-
-}
-header{
-    background-color: #bd0d91;
-    color: aliceblue;
-    padding:1rem ;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-header img {
-    float: right;
-    margin-right: 2rem;
-}
-h1{
-    margin: 0;
-    font-size: 1.4rem;
-
-}
-h2{
     margin: 0%;
-    font-size: 1.2rem;
-    color:white;
-    
+    padding: 0%;
+  
+    color: rgb(41, 61, 44);
+    background-color:greenyellow;
+   
+  
 }
-h3{
-    margin-top: 0;
-    background-color: white;
-    padding: .5rem;
-    border-bottom: 2px dashed darkred;
+ ul{
+    list-style: none;
+    padding: 0%;
+ }
+header img{
+    border-radius: 24%;
+position: absolute;
+left: 50px;
+top: 100px;
+}
 
+header{
+    background-position: center;
+    margin: 0px ; top: 0%;
+
+    color: rgb(30, 56, 13);
+    padding: 1 rem ;
+    width: 100%;
+ 
+    top: 0;
+}
+.menu{
+    position:absolute ;
+    left: 20%;
+    top: 50%;
 
 }
+
+header #H1{
+    color: darkgreen;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: larger 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}           
+  header h2{
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
 main{
-    background-color: aliceblue;
+
+
     padding: 1rem;
-    padding-top: 120%;
+    position:  absolute;
+    left: 0px;
+    top: 50%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: antiquewhite
 }
-#cart{
+main h4{
+    border: 1px solid greenyellow;
+    color: darkgreen;
+    font-size:20px;
+}
+
+main .precio{
+    color: crimson;
+/* padding: 0 1rem; */
+padding-left: 60%;
+text-align: center;
+
+}
+
+#carta{
+
+
     position: fixed;
-    bottom: 0;
-    margin: 0;
+ bottom: 0px;
+
+    margin:10px ;
     left: 20%;
     right: 20%;
     background-color: #006;
-    padding: .8rem;
-     border-top-left-radius: 20px;
+    color: #ddd;
+    padding: 0px;
+    border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    z-index: 100;
-
+    z-index: 10;
 }
-#cart li {
-    margin: 5px 10px;
-}
-
-#cart a {
-    color: yellow;
-}
-
-#cart h4{
-    text-align: center;
-    margin: 0;
-    font-size: 0.8rem;
-    color: #aaa;
-}
-ul {
-    list-style: none;
-    padding: 0;
-}
-.meal{
-    margin-top: 15px;
-
-}
-.meal h4{
-    color: #bd0d91;
-    font-size: 1.4rem;
-margin: 5px 0;
-
-}
-.meal section{
-    display: flex;
-
-}
-.meal.description{
-    font-size: 0.8rem;
-    color: #444;
-    margin: 0;
-    flex-grow: 1;
-
-}
-.meal.price{
-    padding: 0 1rem;
-    text-align: center;
-    font-size: small;
-
+footer{
+position: absolute;
+bottom: 3px;
+right: 10px;
 }

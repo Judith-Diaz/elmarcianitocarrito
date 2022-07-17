@@ -1,216 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>clase17</title>
-    <link rel="stylesheet" href="17style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="/17style.css">
 </head>
+
+
 <body>
 
-<!-- <header>
-        <img src="images/descarga.jpg" whith="60" header alt="">
-        <h1>Tito!s Pzza</h1>
-        <h2>Pizza menu</h2>
- </header>
- <main> 
-    <h3>Pzza Tradicional</h3>
-    <ul>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
+
+    <header>
+
+        <h1 id="H1">El Marcianito Pizza</h1>
+
+        <img src="/images/OIP.jpg" alt="ETE" width="70%">
+        <h2 class=" menu">Menu</h2>
+    </header>
+
+
+
+    <main>
+
+        <h3>Nuestras Especialides</h3>
+
+        <ul>
+            <li class="li1">
+                <article class="meal" data-title="Napolitana" data-precio="1200$">
+                    <h4>Napolitana</h4>
+                    <seccion>
+                        <p class="descripciom">Pizza Jamon iberico y tomate organico en fetas, con muzzarella</p>
+                        <precio class="precio">1200$</precio>
+                    </seccion>
+                </article>
+            </li>
+
+            <li class="li1">
+                <article class="meal" data-title="Autentica" data-precio="1400$">
+                    <h4>Autentica de la casa</h4>
+                    <seccion>
+                        <p class="descripciom">Masa madre, Salsa Natural con muzzarela y ojas de albaca</p>
+                        <precio class="precio">1400$</precio>
+                    </seccion>
+                </article>
+            </li>
+
+            <li class="li1">
+                <article class="meal" data-title="Capelli" data-precio="1800$">
+                    <h4>Capelli Forno</h4>
+                    <seccion>
+                        <p class="descripciom">Pizza Vegetariana ,Rucula y tomates Organicos con queso feta</p>
+                        <precio class="precio">1800$</precio>
+                    </seccion>
+                </article>
+         </li>
+  </ul> 
+         <ul>  
+             <h3>Nuestras bebidas</h3>
+
+            <li class="li1">
+                <article class="meal" data-title="bebida-lima" data-precio="100$">
+                    <h4>Bebidas con gas</h4>
+                    <seccion>
+                        <p class="descripciom">Lima Limon 200 ml</p>
+                        <precio class="precio">100$</precio>
+                    </seccion>
+                </article>
+            
+                <article class="meal" data-title="bebida-cola" data-precio="100$">
+      
                 <seccion>
-                    <p class="descrption">El clasico de todos lso dias</p>
-                    <p class="price">$900</p>
+                    <p class="descripciom">Cola 200 ml</p>
+                    <precio class="precio">100$</precio>
+                </seccion>
+                </article>
+         
+                <article class="meal" data-title="bebida-naranja" data-precio="80$">
+                <h4>Bebidas SIN  gas</h4>
+                <seccion>
+                    <p class="descripciom">Naranja 200 ml</p>
+                    <precio class="precio">100$</precio>
+                </seccion>
+                </article>
+            </li>
+            </ul>
+       <!-- 
+        <li>
+            <article>
+                <h4>Autentica de la casa</h4>
+                <seccion>
+                    <p>Masa madre, Salsa Natural con muzzarela y ojas de albaca</p>
+                    <precio>1200</precio>
                 </seccion>
             </article>
         </li>
-    </ul>
-</main> -->
-<header>
-    <img src="images/descarga.jpg" whith="60" header alt="">
-    <h1>Tito!s Pzza</h1>
-    <h2>Pizza menu</h2>
-</header>
-<main>
 
-    <section id="cart">
-        <h4>Tu Orden <a href="#" id="lnkCancel">Cancel</a></h4>
-        <ul></ul>
+
+        <li>
+            <article>
+                <h4>Capelli Forno</h4>
+                <seccion>
+                    <p>Pizza Vegetariana ,Rucula y tomates Organicos con queso feta</p>
+                    <precio>1200</precio>
+                </seccion>
+            </article>
+        </li>
+    </ul> -->
+    </main>
+
+    <section id="carta">
+        <h4> Tu Orden <a href="#" id="linkCancel"> Cancelar </a></h4>
+        <ul> </ul><!-- Este ul es un contenedor para poder despues ir adregando cosas luego ocn js -->
     </section>
 
 
-    <h3>Pizza Tradicional</h3>
-    <ul>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-    </ul>
 
-    <h3>Especiales y de la Casa</h3>
-    <ul>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-    </ul>
-
-    <h3>Las mejores Vegiies</h3>
-    <ul>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-    </ul>
-
-    <h3>Bebidas</h3>
-    <ul>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-        <li>
-            <article class="meal">
-                <h4>Muzzarella</h4>
-                <section>
-                    <p class="description">El clasico de todos los dias</p>
-                    <p class="price">$900</p>
-                </section>
-            </article>
-        </li>
-    </ul>
-
-</main>
-   <script src="17script.js" ></script>
+    <script src="/17script.js"></script>
 </body>
+
 </html>
